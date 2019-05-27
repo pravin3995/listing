@@ -27,21 +27,26 @@ header {
 }
 .wrp-navbar .logo {
     flex: 1;
-}
+    padding-left: 12px;
 
+}
 .wrp-navbar .nav-main {
     flex: 2;
 }
 .nav-main nav ul {
     margin: 0;
-    padding:18px 0;
+    padding:12px 0;
     list-style: none;
     justify-content: flex-end;
     display: flex;
 }
+.border{
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    padding: 10px 0 0 0;
+  }  
 
 .nav-main nav ul li {
-    padding: 10px 9px;
+    padding: 10px 4px;
 }
 section.banner {
     text-align: center;
@@ -49,16 +54,16 @@ section.banner {
     padding-bottom: 300px;
 }
 section.banner h1 {
-    font-size: 56px;
+    font-size: 60px;
     text-transform: uppercase;
     color: #fff;
-    font-weight: 300;
-    margin-bottom: 45px;
+    font-weight: 100;
+    margin-bottom: 30px;
 }
 
 section.banner button {
-    font-size: 21px;
-    padding: 17px 47px;
+    font-size: 18px;
+    padding: 18px 54px;
     text-transform: uppercase;
     border: 2px solid transparent;
     background: #83cc61;
@@ -76,7 +81,6 @@ button:hover {
     text-decoration: none;
     color: #fff;
     display: inline-block;
-    padding: 30px 0 0 0; 
 }
 
 .nav-main nav ul li a {
@@ -120,7 +124,7 @@ li.dd-menu .sub-nav-wrp ul li a:hover {
 }
 i.fas.fa-chevron-down {
     font-size: 10px;
-    margin-left: 5px;
+    margin-left: 2px;
 }
 
 li.dd-menu ul li {
@@ -232,6 +236,7 @@ p {
     font-size: 16px;
     color: #84848484;
     width: 470px;
+    margin-bottom: 24px;
 }
 .description:hover {
     padding-left: 30px;
